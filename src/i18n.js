@@ -4,7 +4,7 @@ import { Translation, initReactI18next } from "react-i18next";
 
 i18n.use(LanguageDetector).use(initReactI18next).init({
     debug: true,
-    lng: "hi",
+    lng: "en",
     resources: {
         "en": {
             "translation": {
